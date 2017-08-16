@@ -12,6 +12,12 @@
 		<spring.version>4.3.10.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>net.tp</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JAva EE API -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -26,7 +32,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-			<!-- JSTL -->
+		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
