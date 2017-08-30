@@ -1,0 +1,7 @@
+H2 Database for online shopping project of spring
+
+Notes:
+	Driver class/name: org.h2.Driver
+	JDBC URL: jdbc:h2:tcp://localhost/~/onlineshopping
+	Username:sa
+	password:
